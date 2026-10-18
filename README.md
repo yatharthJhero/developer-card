@@ -16,20 +16,24 @@ A responsive personal web page I built for the DearDev First-Week Learning Assig
 - **Vanilla JavaScript** for events and DOM updates (no libraries, no build step)
 
 ## Run locally
-1. Clone the repo: `git clone https://github.com/AshutoshSinghJ/developer-card.git`
+1. Clone the repo: `git clone https://github.com/yatharthJhero/developer-card.git`
 2. Open `index.html` in any modern browser. Nothing to install.
 
 To personalise it, edit the `CONFIG` block at the top of `script.js` (name, GitHub URL, repository URL).
 
 ## What I learned
-<!-- Rewrite these in your own words so they reflect your real experience. -->
+- HTML gives a page its structure, CSS styles it, and JavaScript makes it respond to clicks.
+- CSS variables let one theme switch (dark/light) restyle the whole page.
+- `addEventListener` and `classList` let a click change what's on screen, like the skill chips.
+- Small, clearly named Git commits make a project's history easy to follow.
+- Deploying (Vercel) publishes my files so anyone can open the page with a link.
 - How HTML, CSS and JavaScript split the work: structure, style, behaviour.
 - How CSS variables make a light/dark theme possible without duplicating styles.
 - How `addEventListener` and the DOM let a click change what's on screen.
 - How small, well-named Git commits tell the story of a project.
 
 ## Challenges faced
-<!-- Replace with a real challenge you hit. -->
+- My name and GitHub link were wrong in several files. I fixed them with Replace in Files in VS Code and corrected the Git remote URL.
 - (Your challenge here, e.g. making the layout work on a phone, or getting the theme toggle to remember its state.)
 
 ## Future improvements
