@@ -2,6 +2,8 @@
 
 A responsive personal web page I built for the DearDev First-Week Learning Assignment. It introduces me as a DearDev member, shows the skills I'm learning, and features this page as my current project.
 
+**Live demo:** https://your-link.vercel.app
+
 ## Features
 - Responsive layout for phone, tablet and laptop, with a mobile menu
 - Light/dark theme toggle that remembers my choice
