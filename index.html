@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashutosh Singh | DearDev Developer Card</title>
+<meta name="description" content="Personal developer card of a DearDev member learning HTML, CSS, JavaScript, Git and GitHub.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bg" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="DearDev, back to top"><span class="logo">&lt;/&gt;</span>DearDev</a>
+    <nav id="links" aria-label="Main">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#project">Project</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to light theme">&#9680;</button>
+    <button class="icon-btn menu" id="menuBtn" type="button" aria-expanded="false" aria-controls="links" aria-label="Open menu">&#9776;</button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap" id="top">
+    <div class="stag">
+      <p class="badge"><span class="dot"></span>DearDev Member</p>
+      <h1>Building, learning, and shipping <span class="grad">one commit at a time.</span></h1>
+      <p class="lead">Hi, I'm <strong data-name>Ashutosh Singh</strong>, a developer in the making. I'm learning web fundamentals by building small, practical projects and sharing my progress on GitHub.</p>
+      <button class="greet" id="greetBtn" type="button"><span id="greeting" aria-live="polite">Hello, world</span><small>click to change</small></button>
+      <div class="cta">
+        <a class="btn primary" href="#skills">Explore My Skills</a>
+        <a class="btn" data-github href="https://github.com/AshutoshSinghJ" target="_blank" rel="noopener">Visit GitHub</a>
+      </div>
+    </div>
+    <aside class="idcard" id="idcard" aria-label="Developer ID card">
+      <div class="id-top"><span class="logo">&lt;/&gt;</span>DearDev Member</div>
+      <div class="avatar" id="initials" aria-hidden="true">AS</div>
+      <p class="id-name" data-name>Ashutosh Singh</p>
+      <p class="role">Developer in training</p>
+      <p class="status"><span class="dot"></span>Learning in public</p>
+      <dl>
+        <div><dt>Focus</dt><dd>Web fundamentals</dd></div>
+        <div><dt>Stack</dt><dd>HTML, CSS, JS</dd></div>
+        <div><dt>Tools</dt><dd>Git, GitHub</dd></div>
+      </dl>
+      <div class="barcode" aria-hidden="true"></div>
+    </aside>
+    <a class="cue" href="#about" aria-label="Scroll to About"><span></span></a>
+  </section>
+
+  <section class="wrap" id="about">
+    <h2>Curious first, confident later</h2>
+    <div class="about">
+      <p>I'm at the start of my developer journey. This week at DearDev I'm learning how HTML, CSS and JavaScript fit together, and how Git and GitHub let a team build software without stepping on each other's work.</p>
+      <ul class="values">
+        <li><b>Curious</b>I like understanding why code works, not just copying it.</li>
+        <li><b>Collaborative</b>I'm learning from feedback and from other members.</li>
+        <li><b>Practical</b>I'd rather ship something small and useful than plan something huge.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap" id="skills">
+    <h2>Skills I'm learning</h2>
+    <p class="muted">Tap a skill to see what I'm practising. Everything here is a work in progress.</p>
+    <div class="chips" role="group" aria-label="Skills">
+      <button class="chip" type="button" data-skill="HTML" aria-expanded="false" aria-controls="skillPanel">HTML</button>
+      <button class="chip" type="button" data-skill="CSS" aria-expanded="false" aria-controls="skillPanel">CSS</button>
+      <button class="chip" type="button" data-skill="JavaScript" aria-expanded="false" aria-controls="skillPanel">JavaScript</button>
+      <button class="chip" type="button" data-skill="Git" aria-expanded="false" aria-controls="skillPanel">Git</button>
+      <button class="chip" type="button" data-skill="GitHub" aria-expanded="false" aria-controls="skillPanel">GitHub</button>
+    </div>
+    <div class="panel" id="skillPanel" role="region" aria-live="polite" hidden>
+      <h3 id="skillTitle"></h3>
+      <p id="skillText"></p>
+    </div>
+  </section>
+
+  <section class="wrap" id="project">
+    <h2>Current project</h2>
+    <article class="project">
+      <div class="mock" aria-hidden="true"><i></i><i></i><i></i><div class="m-hero"></div><div class="m-row"><span></span><span></span><span></span></div></div>
+      <div>
+        <h3>My Developer Card</h3>
+        <p>A personal web identity page built with HTML, CSS and JavaScript. It's the page you're looking at, and it's helping me practise page structure, responsive layout and DOM events.</p>
+        <ul class="tags" aria-label="Technologies used"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+        <a class="btn primary" id="repoBtn" href="#activity">See how I work</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="wrap" id="activity">
+    <h2>One step at a time</h2>
+    <div class="code" id="code">
+      <div class="code-bar"><i></i><i></i><i></i><span>progress.js</span></div>
+<pre><code><span class="l" style="--i:0"><em>// my week-one routine</em></span><span class="l" style="--i:1"><b>const</b> steps = [</span><span class="l" style="--i:2">  <i>"Learn the fundamentals"</i>,</span><span class="l" style="--i:3">  <i>"Build something useful"</i>,</span><span class="l" style="--i:4">  <i>"Commit progress to GitHub"</i>,</span><span class="l" style="--i:5">];</span><span class="l" style="--i:6"><b>let</b> status = <i>"still learning, still shipping"</i>;</span></code></pre>
+    </div>
+    <div class="copy">
+      <button class="btn" id="copyBtn" type="button">Copy a short intro</button>
+      <span id="copyMsg" role="status"></span>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p class="foot-msg">Thanks for stopping by. Feedback is always welcome.</p>
+  <a data-github href="https://github.com/AshutoshSinghJ" target="_blank" rel="noopener">My GitHub profile</a>
+  <p class="muted">Built while learning at DearDev</p>
+  <a class="btn" href="#top">Back to top</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
